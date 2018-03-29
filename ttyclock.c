@@ -369,6 +369,7 @@ set_second(void)
         set_center(ttyclock->option.center);
     else
         if (ttyclock->option.position)
+            set_position(ttyclock->option.position);
 }
 
 void
